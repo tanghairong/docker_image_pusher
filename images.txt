@@ -9,3 +9,4 @@ httpd:2.4-bullseye
 #--platform=linux/arm64 xiaoyaliu/alist
 --platform=linux/arm64 apache/skywalking-oap-server:9.5.0
 --platform=linux/arm64 apache/skywalking-ui:9.5.0
+metabase/metabase:v0.53.3.1
