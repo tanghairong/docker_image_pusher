@@ -10,3 +10,5 @@ minio/minio
 --platform=linux/arm64 apache/skywalking-ui:9.5.0
 #metabase/metabase:v0.53.3.1
 apache/skywalking-banyandb:0.7.1
+apache/skywalking-ui:10.1.0
+apache/skywalking-oap-server:10.1.0
