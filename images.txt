@@ -2,11 +2,11 @@ nginx
 flink:1.19.1-scala_2.12
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
 minio/minio
-httpd:2.4-bullseye
+#httpd:2.4-bullseye
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 --platform=linux/arm64 apache/skywalking-oap-server:9.5.0
 --platform=linux/arm64 apache/skywalking-ui:9.5.0
-metabase/metabase:v0.53.3.1
+#metabase/metabase:v0.53.3.1
+apache/skywalking-banyandb:0.7.1
