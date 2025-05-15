@@ -15,3 +15,5 @@ apache/skywalking-oap-server:10.1.0
 
 --platform=linux/arm64/v8 python:3.12.10-slim-bullseye
 --platform=linux/amd64 python:3.12.10-slim-bullseye
+
+moby/buildkit:buildx-stable-1
