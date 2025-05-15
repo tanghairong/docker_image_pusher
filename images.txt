@@ -12,3 +12,6 @@ minio/minio
 apache/skywalking-banyandb:0.7.1
 apache/skywalking-ui:10.1.0
 apache/skywalking-oap-server:10.1.0
+
+--platform=linux/arm64/v8 python:3.12.10-slim-bullseye
+--platform=linux/amd64 python:3.12.10-slim-bullseye
