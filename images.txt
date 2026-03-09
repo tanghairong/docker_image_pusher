@@ -24,3 +24,6 @@ tonistiigi/binfmt
 
 --platform=linux/amd64 otel/ebpf-instrument:v0.6.0
 --platform=linux/arm64 otel/ebpf-instrument:v0.6.0
+
+--platform=linux/amd64 otel/opentelemetry-collector-contrib:0.147.0
+--platform=linux/arm64 otel/opentelemetry-collector-contrib:0.147.0
