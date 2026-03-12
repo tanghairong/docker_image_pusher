@@ -6,12 +6,11 @@ minio/minio
 #httpd:2.4-bullseye
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
---platform=linux/arm64 apache/skywalking-oap-server:9.5.0
---platform=linux/arm64 apache/skywalking-ui:9.5.0
+--platform=linux/arm64 apache/skywalking-oap-server:10.3.0
+--platform=linux/arm64 apache/skywalking-ui:10.3.0
+--platform=linux/amd64 apache/skywalking-oap-server:10.3.0
+--platform=linux/amd64 apache/skywalking-ui:10.3.0
 #metabase/metabase:v0.53.3.1
-apache/skywalking-banyandb:0.7.1
-apache/skywalking-ui:10.1.0
-apache/skywalking-oap-server:10.1.0
 
 --platform=linux/arm64/v8 python:3.12.10-slim-bullseye
 --platform=linux/amd64 python:3.12.10-slim-bullseye
